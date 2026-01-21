@@ -22,7 +22,7 @@ window.addEventListener("scroll", () => {
     targetWidth = progress * 100;
   } else if (rect.top >= windowHeight) {
     targetWidth = 0;
-  } else if (rect.bottom <= 0) {
+  } else if (rect.bottom <= 0) { 
     targetWidth = 100; 
   } 
 });

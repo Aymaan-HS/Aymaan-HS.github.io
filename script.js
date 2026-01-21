@@ -3,7 +3,7 @@ const expLine = document.getElementById("exp-line");
 
 let currentWidth = 0;            // current smooth width
 let targetWidth = 0;             // where it should go
-
+  
 function animateLine() {
   currentWidth += (targetWidth - currentWidth) * 0.05;  // smoother (slower & buttery)
   expLine.style.width = currentWidth.toFixed(2) + "%";

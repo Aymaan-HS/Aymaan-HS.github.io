@@ -7,7 +7,7 @@ let targetWidth = 0;             // where it should go
 function animateLine() {
   currentWidth += (targetWidth - currentWidth) * 0.05;  // smoother (slower & buttery)
   expLine.style.width = currentWidth.toFixed(2) + "%";
-
+ 
   requestAnimationFrame(animateLine);
 }
 

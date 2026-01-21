@@ -11,7 +11,7 @@ function animateLine() {
   requestAnimationFrame(animateLine); 
 }  
   
-animateLine();  // start animation loop 
+animateLine();   // start animation loop 
  
 window.addEventListener("scroll", () => {  
   const rect = expSection.getBoundingClientRect(); 

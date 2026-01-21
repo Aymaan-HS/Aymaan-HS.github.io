@@ -25,7 +25,7 @@ window.addEventListener("scroll", () => {
   } else if (rect.bottom <= 0) { 
     targetWidth = 100; 
   } 
-});
+}); 
  
 
 // super smooth experience line animation

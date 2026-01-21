@@ -4,7 +4,7 @@ const expLine = document.getElementById("exp-line");
 let currentWidth = 0;            // current smooth width
 let targetWidth = 0;             // where it should go
   
-function animateLine() {
+function animateLine() { 
   currentWidth += (targetWidth - currentWidth) * 0.05;  // smoother (slower & buttery)
   expLine.style.width = currentWidth.toFixed(2) + "%";
  
@@ -14,7 +14,7 @@ function animateLine() {
 animateLine();  // start animation loop 
 
 window.addEventListener("scroll", () => { 
-  const rect = expSection.getBoundingClientRect();
+  const rect = expSection.getBoundingClientRect(); 
   const windowHeight = window.innerHeight;
 
   if (rect.top < windowHeight && rect.bottom > 0) {

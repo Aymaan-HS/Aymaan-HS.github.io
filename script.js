@@ -24,7 +24,7 @@ window.addEventListener("scroll", () => {
     targetWidth = 0;
   } else if (rect.bottom <= 0) { 
     targetWidth = 100; 
-  }   
+  }    
 }); 
  
 

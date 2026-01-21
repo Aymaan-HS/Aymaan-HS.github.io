@@ -26,7 +26,7 @@ window.addEventListener("scroll", () => {
     targetWidth = 100; 
   }
 });
-
+ 
 
 // super smooth experience line animation
 let lastWidth = 0;

@@ -9,7 +9,7 @@ function animateLine() {
   expLine.style.width = currentWidth.toFixed(2) + "%";
  
   requestAnimationFrame(animateLine);
-} 
+}  
 
 animateLine();  // start animation loop
 

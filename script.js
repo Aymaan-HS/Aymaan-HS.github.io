@@ -13,7 +13,7 @@ function animateLine() {
  
 animateLine();  // start animation loop
 
-window.addEventListener("scroll", () => {
+window.addEventListener("scroll", () => { 
   const rect = expSection.getBoundingClientRect();
   const windowHeight = window.innerHeight;
 

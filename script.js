@@ -18,7 +18,7 @@ window.addEventListener("scroll", () => {
   const windowHeight = window.innerHeight;  
 
   if (rect.top < windowHeight && rect.bottom > 0) {
-    const progress = Math.min(1, Math.max(0, 1 - rect.top / windowHeight));
+    const progress = Math.min(1, Math.max(0, 1 - rect.top / windowHeight)); 
     targetWidth = progress * 100;
   } else if (rect.top >= windowHeight) {
     targetWidth = 0;

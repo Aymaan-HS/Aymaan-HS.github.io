@@ -15,7 +15,7 @@ animateLine();   // start animation loop
  
 window.addEventListener("scroll", () => {  
   const rect = expSection.getBoundingClientRect(); 
-  const windowHeight = window.innerHeight; 
+  const windowHeight = window.innerHeight;  
 
   if (rect.top < windowHeight && rect.bottom > 0) {
     const progress = Math.min(1, Math.max(0, 1 - rect.top / windowHeight));

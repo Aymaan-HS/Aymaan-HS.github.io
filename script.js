@@ -8,7 +8,7 @@ function animateLine() {
   currentWidth += (targetWidth - currentWidth) * 0.05;  // smoother (slower & buttery)
   expLine.style.width = currentWidth.toFixed(2) + "%";
   
-  requestAnimationFrame(animateLine);   
+  requestAnimationFrame(animateLine);    
 }  
    
 animateLine();   // start animation loop 

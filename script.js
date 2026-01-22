@@ -14,7 +14,7 @@ function animateLine() {
 animateLine();   // start animation loop   
  
 window.addEventListener("scroll", () => {  
-  const rect = expSection.getBoundingClientRect(); 
+  const rect = expSection.getBoundingClientRect();  
   const windowHeight = window.innerHeight;  
 
   if (rect.top < windowHeight && rect.bottom > 0) {
